@@ -1,7 +1,7 @@
 
 import speech_recognition as sr
 
-with open("credenciais/GCloudKey.json.json") as crendenciais_google:   ####Congigurações
+with open("credenciais/GCloudKey.json") as crendenciais_google:   ####Congigurações
 	crendenciais_google = crendenciais_google.read()
 
 def audio_recognize():  # Ler audio do microfone
