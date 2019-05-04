@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Bem Vindo!
 
-You can use the [editor on GitHub](https://github.com/yleseverino/Coral/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Esse é um projeto de assistente virtual Feito por [Yle](https://www.linkedin.com/in/yle/) e pelo seu grande Amigo [David](https://www.facebook.com/dpalisneto) O projeto consiste em desenvolver uma assistente virtual utilizando a linguagem Python com implementos de algumas APIS de serviços online bastante populares. Algumas das suas funções podem ser resumidas em: capacidade de operar com integração em rede através de conexão por socket em servidores servos, sendo assim possível trabalhar com diversas plataformas ao mesmo tempo como computadores (Linux, MacOsX e Windows), microcomputadores (RaspBerry Pi) e micro controladores,
+como o Arduino. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Instalação
 
-### Markdown
+Metodo de instalação no linux
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```shell
+git clone https://github.com/yleseverino/Coral.git
+virtualenv Coral
+source Coral/bin/activate
+pip3 install -r requirements.txt
+python3 Coral
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yleseverino/Coral/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+O projeto ainda está em adamento logo pode acontecer bugs
