@@ -17,4 +17,4 @@ python3 Coral
 
 ```
 
-O projeto ainda está em adamento logo pode acontecer bugs
+O projeto ainda está em adamento logo pode acontecer alguns bugs
