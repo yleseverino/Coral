@@ -3,9 +3,21 @@
 
 ## Welcome!
 
-  This ptoject is of an virtual assistent controlled by voice like Alexia (Amazon) but created with Python and the speech recognition of the google cloud API, it was made by [Yle](https://www.linkedin.com/in/yle/) and by you big friend [David](https://www.facebook.com/dpalisneto)
+  This ptoject is of a virtual assistent controlled by voice like Alexia (Amazon) but created with Python and the speech recognition of the google cloud API, it was made by [Yle](https://www.linkedin.com/in/yle/) and by you big friend [David](https://www.facebook.com/dpalisneto)
+  This projects works with the speech recognition of the google cloud, and sockets it runs in linux even in the raspberry (where we tested), connect with arduido plataform.
+  
+  
+### install
 
+```shell
+git clone https://github.com/yleseverino/Coral.git
+virtualenv Coral
+source Coral/bin/activate
+pip3 install -r requirements.txt
+python3 Coral
+```
 
+the project is in developing and could show some bugs
 
 
 ## Bem Vindo!
